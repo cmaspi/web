@@ -15,6 +15,10 @@ header h1 {
     color: white;
 }
 
+p#interests {
+    color:rgb(0,255,234);
+}
+
 header {
     padding: 40px;
     background-color: rgb(17, 124, 143);
