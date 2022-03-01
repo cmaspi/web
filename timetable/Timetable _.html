@@ -57,68 +57,6 @@
         border: 1px solid #f8f842;
         color: #f8f842;
       }
-      #AI2100:hover span{
-        display:none
-      }
-      #AI2100:hover::before{
-        content: "A-LH2";
-        color:rgb(0,255,234);
-      }
-
-      #AI2101:hover span{
-        display:none
-      }
-      #AI2101:hover::before{
-        content: "Auditorium";
-        color:rgb(0,255,234);
-      }
-      #CS2443:hover span{
-        display:none
-      }
-      #CS2443:hover::before{
-        content: "A-LH2";
-        color:rgb(0,255,234);
-      }
-      #MA4240-2:hover span{
-        display:none
-      }
-      #MA4240-2:hover::before{
-        content: "Auditorium";
-        color:rgb(0,255,234);
-      }
-
-      #MA4240-1:hover span{
-        display:none
-      }
-      #MA4240-1:hover::before{
-        content: "A-LH1";
-        color:rgb(0,255,234);
-      }
-
-      #CS3563:hover span{
-        display:none
-      }
-      #CS3563:hover::before{
-        content: "A-LH2";
-        color:rgb(0,255,234);
-      }
-
-      #CS3320:hover span{
-        display:none
-      }
-      #CS3320:hover::before{
-        content: "C-LH5";
-        color:rgb(0,255,234);
-      }
-
-      #EM3020:hover span{
-        display:none
-      }
-      #EM3020:hover::before{
-        content: "A-LH2";
-        color:rgb(0,255,234);
-      }
-
       
       .differentColor {
         color: #f8f842;
@@ -126,15 +64,13 @@
       .Room:hover{
         background-color:black
       }
-      .main-heading:hover{
-        color: rgb(0, 255, 234);
-      }
+      
       
     </style>
   </head>
   <body>
     <p class="main-heading">Your Timetable</p>
-    <!-- Place this tag where you want the button to render. -->
+
     <table border="1" id="timetable">
       <tbody><tr>
         <td class="differentColor">Day</td>
@@ -149,20 +85,9 @@
         <td class="differentColor">17:30-18:55</td>
         <td class="differentColor">19:00-20:30</td>
       </tr>
-      <tr class="Monday-1">
-        <td rowspan="3" class="differentColor">Monday</td>
-        <td>1</td>
-        <td class="1-1-1"></td>
-        <td class="1-1-2" id="AI2100"><span>AI2100</span></td>
-        <td class="1-1-3" id="CS2443"><span>CS2443</span></td>
-        <td class="1-1-4"></td>
-        <td></td>
-        <td class="1-1-5"></td>
-        <td class="1-1-6"></td>
-        <td class="1-1-7"></td>
-        <td class="1-1-8"></td>
-      </tr>
+      
       <tr class="Monday-2">
+        <td rowspan="2" class="differentColor">Monday</td>
         <td>2</td>
         <td class="1-2-1"></td>
         <td class="1-2-2" id="AI2100"><span>AI2100</span></td>
@@ -186,20 +111,9 @@
         <td class="1-3-7"></td>
         <td class="1-3-8"></td>
       </tr>
-      <tr class="Tuesday-1">
-        <td rowspan="3" class="differentColor">Tuesday</td>
-        <td>1</td>
-        <td class="2-1-1"></td>
-        <td class="2-1-2" id="CS3563"><span>CS3563</span></td>
-        <td class="2-1-3" id="MA4240-1"><span>MA4240</span></td>
-        <td class="2-1-4"></td>
-        <td></td>
-        <td class="2-1-5" id="AI2101"><span>AI2101</span></td>
-        <td class="2-1-6" id="EM3020"><span>EM3020</span></td>
-        <td class="2-1-7"></td>
-        <td class="2-1-8"></td>
-      </tr>
+      
       <tr class="Tuesday-2">
+        <td rowspan="2" class="differentColor">Tuesday</td>
         <td>2</td>
         <td class="2-2-1"></td>
         <td class="2-2-2" id="CS3563"><span>CS3563</span></td>
@@ -223,20 +137,9 @@
         <td class="2-3-7"></td>
         <td class="2-3-8"></td>
       </tr>
-      <tr class="Wednesday-1">
-        <td rowspan="3" class="differentColor">Wednesday</td>
-        <td>1</td>
-        <td class="3-1-1" id="AI2100"><span>AI2100</span></td>
-        <td class="3-1-2" id="CS2443"><span>CS2443</span></td>
-        <td class="3-1-3"></td>
-        <td class="3-1-4"></td>
-        <td></td>
-        <td class="3-1-5" id="MA4240-2"><span>MA4240</span></td>
-        <td class="3-1-6"></td>
-        <td class="3-1-7"></td>
-        <td class="3-1-8"></td>
-      </tr>
+      
       <tr class="Wednesday-2">
+        <td rowspan="2" class="differentColor">Wednesday</td>
         <td>2</td>
         <td class="3-2-1" id="AI2100"><span>AI2100</span></td>
         <td class="3-2-2" id="CS2443"><span>CS2443</span></td>
@@ -260,20 +163,9 @@
         <td class="3-3-7"></td>
         <td class="3-3-8"></td>
       </tr>
-      <tr class="Thursday-1">
-        <td rowspan="3" class="differentColor">Thursday</td>
-        <td>1</td>
-        <td class="4-1-1" id="CS2443"><span>CS2443</span></td>
-        <td class="4-1-2"></td>
-        <td class="4-1-3" id="AI2100"><span>AI2100</span></td>
-        <td class="4-1-4" id="CS3563"><span>CS3563</span></td>
-        <td></td>
-        <td class="4-1-5"></td>
-        <td class="4-1-6"></td>
-        <td class="4-1-7"></td>
-        <td class="4-1-8"></td>
-      </tr>
+      
       <tr class="Thursday-2">
+        <td rowspan="2" class="differentColor">Thrusday</td>
         <td>2</td>
         <td class="4-2-1" id="CS2443"><span>CS2443</span></td>
         <td class="4-2-2"></td>
@@ -297,20 +189,9 @@
         <td class="4-3-7"></td>
         <td class="4-3-8"></td>
       </tr>
-      <tr class="Friday-1">
-        <td rowspan="3" class="differentColor">Friday</td>
-        <td>1</td>
-        <td class="5-1-1" id="CS3563"><span>CS3563</span></td>
-        <td class="5-1-2" id="MA4240-1"><span>MA4240</span></td>
-        <td class="5-1-3"></td>
-        <td class="5-1-4"></td>
-        <td></td>
-        <td class="5-1-5" id="EM3020"><span>EM3020</span></td>
-        <td class="5-1-6" id="AI2101"><span>AI2101</span></td>
-        <td class="5-1-7"></td>
-        <td class="5-1-8"></td>
-      </tr>
+      
       <tr class="Friday-2">
+        <td rowspan="2" class="differentColor">Friday</td>
         <td>2</td>
         <td class="5-2-1" id="CS3563"><span>CS3563</span></td>
         <td class="5-2-2" id="MA4240-1"><span>MA4240</span></td>
@@ -339,44 +220,36 @@
       <tbody><tr>
           <td class="differentColor">Course Code</td>
           <td class="differentColor">Course</td>
-          <td class="differentColor">Lecture Hall</td>
       </tr>
       <tr>
   
     <td class="Coursecode" id="CS3563"><span>CS3563</span></td>
     <td class="coursename">Introduction to DBMS II</td>
-    <td class="Room">A-LH2</td>
   </tr><tr>
   
     <td class="Coursecode" id="MA4240-1"><span>MA4240</span></td>
     <td class="coursename">Applied Statistics</td>
-    <td class="Room">Auditorium/A-LH1</td>
   </tr><tr>
   
     <td class="Coursecode" id="CS3320"><span>CS3320</span></td>
     <td class="coursename">Compilers-I</td>
-    <td class="Room">C-LH5</td>
   </tr><tr>
     <td class="Coursecode" id="AI2100"><span>AI2100</span></td>
     <td class="coursename">Deep Learning</td>
-    <td class="Room">A-LH2</td>
   </tr><tr>
   
     <td class="Coursecode" id="AI2101"><span>AI2101</span></td>
     <td class="coursename">Convex Optimization</td>
-    <td class="Room">Auditorium</td>
   </tr>
   <tr>
   
     <td class="Coursecode" id="CS2443"><span>CS2443</span></td>
     <td class="coursename">Algorithms</td>
-    <td class="Room">A-LH2</td>
   </tr>
   <tr>
   
     <td class="Coursecode" id="EM3020"><span>EM3020</span></td>
     <td class="coursename">Introduction to Entrepreneurship</td>
-    <td class="Room">A-LH2</td>
   </tr></tbody><tbody></tbody>
     </table>
   
